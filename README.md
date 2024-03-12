@@ -14,32 +14,23 @@ We use a variant of GLM known as [nalgebra-glm](https://docs.rs/nalgebra-glm/0.1
 
 ## Report
 
-You're free to write your report any way you'd like, as long as it is delivered as a PDF file.
+Scene Before Correct Lighting in the Fragment Shader
+<img width="423" alt="image" src="https://github.com/marcoame2001/Computer_Graphics-Project/assets/143449334/8c4106af-dd0c-4032-8f9d-55b8b8ff53ab">
 
-To spread the gospel, I have included a `pandoc` report skeleton in the `report` folder.
-To use pandoc, make sure you have `pandoc` installed along with a supported latex engine.
-Make sure it works before using it to write your report.
+Scene after setting up the fragment shader correctly
+<img width="274" alt="image" src="https://github.com/marcoame2001/Computer_Graphics-Project/assets/143449334/822c990a-5d80-42f4-96a6-1dfebc809ad0">
 
-## Code delivery
+Adding the main rotor --> scene node object
 
-We want the following files and folders to be delivered in a ZIP file:
+<img width="450" alt="image" src="https://github.com/marcoame2001/Computer_Graphics-Project/assets/143449334/d674e24f-e769-42b7-9ed6-0de17aed0c41">
 
-* `resources`
-* `shaders`
-* `src`
-* `Cargo.lock`
-* `Cargo.toml`
+After adding the rest of nodes:
 
-**Important:** Do not include the `target` folder!
+<img width="272" alt="image" src="https://github.com/marcoame2001/Computer_Graphics-Project/assets/143449334/8e75f1ff-4ee7-4183-9ac6-5a604619bd32">
 
-To automatically make an archive (`source.zip`) ready for uploading to blackboard:
+Extended solution:
 
-* Make sure any extra assets or resources you have might have added are located in the `resources` folder
-* Then run either:
-	* `create_code_archive_for_blackboard_LINUX.sh`
-	* `create_code_archive_for_blackboard_WINDOWS.bat`.
+<img width="462" alt="image" src="https://github.com/marcoame2001/Computer_Graphics-Project/assets/143449334/eb62420c-685c-4b93-9fb7-48244e15e4a8">
 
-This script will explicitly ignore the `target` folder, and two files given as a handout for exercise 3, to save space:
 
-* `resources/helicopter.obj`
-* `resources/lunarsurface.obj`
+
