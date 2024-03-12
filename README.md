@@ -15,10 +15,14 @@ We use a variant of GLM known as [nalgebra-glm](https://docs.rs/nalgebra-glm/0.1
 ## Report
 
 Scene Before Correct Lighting in the Fragment Shader
+
 <img width="423" alt="image" src="https://github.com/marcoame2001/Computer_Graphics-Project/assets/143449334/8c4106af-dd0c-4032-8f9d-55b8b8ff53ab">
 
+
 Scene after setting up the fragment shader correctly
+
 <img width="274" alt="image" src="https://github.com/marcoame2001/Computer_Graphics-Project/assets/143449334/822c990a-5d80-42f4-96a6-1dfebc809ad0">
+
 
 Adding the main rotor --> scene node object
 
